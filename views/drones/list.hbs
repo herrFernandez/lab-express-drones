@@ -1,1 +1,9 @@
 <h2>Available drones</h2>
+
+{{#if drones}}
+    {{#each drones}}
+        <div class="result-box">
+        <h2>{{this.name}}</h2>
+        </div>
+    {{/each}}
+{{/if}}
